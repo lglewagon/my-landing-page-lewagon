@@ -1,0 +1,40 @@
+.banner {
+    background-image:url("../../images/background.png");
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0;
+}
+.container {
+    width: 900px;
+    margin: auto;
+}
+.btn-primary {
+    display: inline-block;
+    background-color: #1EDD88;
+    padding: 16px 36px;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    border: 5px solid #1EDD88;
+    transition: .5s ease;
+    font-size: 16px;
+}
+.btn-primary:hover {
+    display: inline-block;
+    background-color: white;
+    padding: 16px 36px;
+    border-radius: 50px;
+    color: #1EDD88;
+    font-weight: bold;
+    border: 5px solid #1EDD88;
+    transition: .5s ease;
+    font-size: 24px;
+}
+.banner h1 {
+    color: white;
+}
+.banner p {
+    color: white;
+    opacity: .7;
+    font-size: 20px;
+}
